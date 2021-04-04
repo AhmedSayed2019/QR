@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <dimen name="Logo_height">200dp</dimen>
+    <dimen name="Logo_width">200dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_large_height">50dp</dimen>
+    <dimen name="button_normal_height">40dp</dimen>
+    <dimen name="button_width_large">300dp</dimen>
+    <dimen name="button_width_normal">200dp</dimen>
+    <dimen name="button_width_small">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="icon_size_large">70dp</dimen>
+    <dimen name="large_icon">40dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="large_text">15sp</dimen>
+    <dimen name="line_height">2dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="normal_height_button">40dp</dimen>
+    <dimen name="normal_height_text">30dp</dimen>
+    <dimen name="normal_icon">30dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="normal_text">13sp</dimen>
+    <dimen name="normal_width_button">60dp</dimen>
+    <dimen name="profile_image_size">100sp</dimen>
+    <dimen name="profile_size">400dp</dimen>
+    <dimen name="radius">40dp</dimen>
+    <dimen name="signUp_icon_size">80dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="small_padding">13dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="teacher_image">60dp</dimen>
+    <dimen name="teacher_image_border">65dp</dimen>
+    <dimen name="text_height">30dp</dimen>
+    <dimen name="the_biggest_margin">40dp</dimen>
+    <dimen name="title_text">30sp</dimen>
+    <dimen name="toolBar_height">40dp</dimen>
+    <dimen name="very_large_icon">50dp</dimen>
+    <dimen name="very_large_margin">24dp</dimen>
+    <dimen name="very_large_text">20sp</dimen>
+    <dimen name="welcome_height">20dp</dimen>
+    <integer name="animation_dur_medium">1000</integer>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar"><!--Theme.AppCompat.Light.DarkActionBar-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--<item name="android:background">@color/white</item>-->
+
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:colorControlHighlight" ns1:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <!--<item name="android:textColor">@color/black</item>-->
+
+
+        <!--<item name="android:textColorHint">@color/white</item>-->
+        <item name="android:fontFamily">@font/neo_sans_arabic_regular</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="DialogAnimationLeft">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+    <style name="Theme_Dialog" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="background">
+        <item name="android:background">@color/background</item>
+    </style>
+    <style name="direction">
+        <item name="android:textDirection">inherit</item>
+        <item name="android:layoutDirection">inherit</item>
+    </style>
+    <style name="fileChooserName">
+        <item name="android:drawablePadding">@dimen/list_item_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="myFont" parent="direction">
+        <item name="android:fontFamily">@font/neo_sans_arabic_regular</item>
+    </style>
+</resources>

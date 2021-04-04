@@ -55,11 +55,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-database'
 
 
-
-
-
-
-
     //loader
     implementation 'com.victor:lib:1.0.4'
 

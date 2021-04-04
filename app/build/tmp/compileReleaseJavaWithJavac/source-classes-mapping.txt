@@ -1,0 +1,33 @@
+tableNames/user/Users.java
+ tableNames.user.Users
+com/example/qrapp/MainActivity.java
+ com.example.qrapp.MainActivity
+ com.example.qrapp.MainActivity$1
+com/example/qrapp/splashScreen/SplashScreenInterface.java
+ com.example.qrapp.splashScreen.SplashScreenInterface
+tableNames/user/Device.java
+ tableNames.user.Device
+com/example/qrapp/scanner.java
+ com.example.qrapp.scanner
+ com.example.qrapp.scanner$1
+ com.example.qrapp.scanner$1$1
+ com.example.qrapp.scanner$2
+ com.example.qrapp.scanner$3
+com/example/qrapp/services/Connectivity.java
+ com.example.qrapp.services.Connectivity
+com/example/qrapp/login/LoginInterface.java
+ com.example.qrapp.login.LoginInterface
+com/example/qrapp/services/Dialogs.java
+ com.example.qrapp.services.Dialogs
+com/example/qrapp/splashScreen/SplashScreen.java
+ com.example.qrapp.splashScreen.SplashScreen
+com/example/qrapp/MainActivity2.java
+ com.example.qrapp.MainActivity2
+ com.example.qrapp.MainActivity2$1
+com/example/qrapp/services/ButtonAnim.java
+ com.example.qrapp.services.ButtonAnim
+com/example/qrapp/BuildConfig.java
+ com.example.qrapp.BuildConfig
+com/example/qrapp/login/LoginActivity.java
+ com.example.qrapp.login.LoginActivity
+ com.example.qrapp.login.LoginActivity$1
